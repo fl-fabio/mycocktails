@@ -25,3 +25,53 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Project structure
+
+mycocktails/
+|-- .vscode/
+|-- node_modules/
+|-- src/
+|   |-- app/
+|   |   |-- core/
+|   |   |   |-- guards/
+|   |   |   |-- interceptors/
+|   |   |   |-- services/
+|   |   |-- modules/
+|   |   |   |-- login/
+|   |   |   |-- main/
+|   |   |   |   |-- components/
+|   |   |   |   |   |-- card-list/
+|   |   |   |   |   |-- card-detail/
+|   |   |   |   |-- main-routing.module.ts
+|   |   |   |   |-- main.module.ts
+|   |   |-- shared/
+|   |   |   |-- components/
+|   |   |   |   |-- header/
+|   |   |   |   |-- footer/
+|   |   |   |-- directives/
+|   |   |   |-- pipes/
+|   |   |   |-- utilities/
+|   |   |-- app-routing.module.ts
+|   |   |-- app.component.html
+|   |   |-- app.component.scss
+|   |   |-- app.component.ts
+|   |   |-- app.module.ts
+|   |-- assets/
+|   |   |-- fonts/
+|   |   |-- i18n/
+|   |   |   |-- en.json
+|   |   |   |-- it.json
+|   |   |-- images/
+|   |-- environments/
+|   |-- styles/
+|   |   |-- _variables.scss
+|   |   |-- styles.scss
+|   |-- index.html
+|   |-- main.ts
+|   |-- polyfills.ts
+|   |-- styles.scss
+|-- angular.json
+|-- package.json
+|-- tsconfig.json
